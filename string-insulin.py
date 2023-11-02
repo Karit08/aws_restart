@@ -1,3 +1,4 @@
+# 11 secuencia de insulina 
 # Store the human preproinsulin sequence in a variable called preproinsulin:
 
 preproInsulin = "malwmrllpllallalwgpdpaaafvnqhlcgshlvealylvcgergffytpktr" \

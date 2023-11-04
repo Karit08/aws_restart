@@ -1,3 +1,5 @@
+#3 Trabajo con el tipo de dato de cadena
+
 # String str
 myString = "This is a string"
 print(myString)

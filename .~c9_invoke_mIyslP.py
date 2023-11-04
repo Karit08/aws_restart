@@ -24,14 +24,7 @@ pKR ={
 # print(insulin.count("y"))
 # print(float(insulin.count("y")))
 
-seqCount = (
-    {
-        x: float(
-            insulin.count(x)
-            ) 
-        for x in ['y','c','k','h','r','d','e']
-    }
-)
+seqCount = ({x: float(insulin.count(x)) for x in ['y','c','k','h','r','d','e']})
 # print(seqCount)
 
 pH=0
@@ -42,9 +35,9 @@ while(pH <= 14):
     for x in ['k','h','r']}.values()))
     
     secondValue = (sum({x: ((seqCount[x]*(10**pH))/((10**pH)+(10**pKR[x]))) \
-    for x in ['y','c','d','e']}.values()))
-
-    netCharge = (+ firstValue - secondValue)
+     for x in ['y','c','d','e']}.values())))
+     
+     
     
     # netCharge = (
     # +(sum({x: ((seqCount[x]*(10**pKR[x]))/((10**pH)+(10**pKR[x]))) \
@@ -57,4 +50,4 @@ while(pH <= 14):
     pH +=1
 
     
-# .value -> indica los valores 
+    

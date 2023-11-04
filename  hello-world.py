@@ -2,14 +2,6 @@
 
 print("Hello, world")
 
-# 5
-myMixedTypeList = [45, 290578, 1.02, True, "My dog is on the bed.", "45"]
-for item in myMixedTypeList: 
-    print('{} is of the data type {}'.format(item, type(item)))
-
-print(myMixedTypeList[2]);
-myMixedTypeList[2] ="nuevo valor"
-print(myMixedTypeList[2]);
 
 # 7 if, else, elif
 userReply = input("Do you need to ship a package? (Enter yes or no) ")
